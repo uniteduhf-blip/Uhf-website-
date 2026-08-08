@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact & Donate — United Hands Foundation</title>
+<meta name="description" content="Get in touch with United Hands Foundation to donate, volunteer, or ask a question.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav-inner">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="20" cy="20" r="19" stroke="#163A5F" stroke-width="2"/>
+        <circle cx="20" cy="20" r="4" fill="#E3A542"/>
+        <circle cx="20" cy="7" r="2.6" fill="#4A8FC2"/>
+        <circle cx="30" cy="14" r="2.6" fill="#4A8FC2"/>
+        <circle cx="30" cy="26" r="2.6" fill="#4A8FC2"/>
+        <circle cx="20" cy="33" r="2.6" fill="#4A8FC2"/>
+        <circle cx="10" cy="26" r="2.6" fill="#4A8FC2"/>
+        <circle cx="10" cy="14" r="2.6" fill="#4A8FC2"/>
+      </svg>
+      United Hands Foundation
+    </a>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="programs.html">Programmes</a>
+      <a href="services.html">Health Services</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="contact.html" class="btn btn-ghost">Volunteer</a>
+      <a href="contact.html" class="btn btn-donate">Donate</a>
+      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="#163A5F" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" style="padding:70px 0 80px;">
+  <div class="wrap" style="grid-template-columns:1fr; max-width:760px;">
+    <div>
+      <div class="eyebrow">Get in touch</div>
+      <h1>Let's work together.</h1>
+      <p class="lead">Whether you want to donate, volunteer, or partner with us on a program — we'd love to hear from you.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="grid-2" style="align-items:start; grid-template-columns: 1.3fr 1fr;">
+      <div class="card">
+        <h3>Send us a message</h3>
+        <form id="contact-form">
+          <div class="form-grid">
+            <div class="field">
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="field full">
+              <label for="reason">I'm interested in</label>
+              <select id="reason" name="reason">
+                <option>Donating</option>
+                <option>Volunteering</option>
+                <option>Partnering with a program</option>
+                <option>General question</option>
+              </select>
+            </div>
+            <div class="field full">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p id="form-status" style="margin-top:14px; font-size:0.9rem;"></p>
+        </form>
+        <p class="gallery-note">Note: this form currently only confirms on-screen. Connect it to a service like Formspree or Netlify Forms (or your own backend) to actually receive messages by email.</p>
+      </div>
+
+      <div class="contact-info-card">
+        <h3>Contact details</h3>
+        <div class="info-line">
+          <div>
+            <strong>Email</strong>
+            hello@uhf.org.in
+          </div>
+        </div>
+        <div class="info-line">
+          <div>
+            <strong>Phone</strong>
+            +91 00000 00000
+          </div>
+        </div>
+        <div class="info-line">
+          <div>
+            <strong>Office</strong>
+            United Hands Foundation<br>Add your street address, city, state, PIN
+          </div>
+        </div>
+        <div class="info-line">
+          <div>
+            <strong>Bank transfer</strong>
+            United Hands Foundation<br>
+            Bank of Baroda, Latur Branch<br>
+            A/c No: 09900100048917<br>
+            IFSC: BARB0LATURX <span style="opacity:0.75; font-size:0.85em;">(5th character is zero)</span>
+          </div>
+        </div>
+        <div class="info-line">
+          <div>
+            <strong>UPI</strong>
+            unit90288824917@barodampay
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">United Hands Foundation</div>
+        <p style="color:rgba(255,255,255,0.68); font-size:0.92rem; max-width:32ch;">Improving health, dignity, and quality of life across Maharashtra since 2020.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="about.html">About us</a>
+        <a href="programs.html">Programmes</a>
+        <a href="services.html">Health services</a>
+        <a href="gallery.html">Gallery</a>
+      </div>
+      <div>
+        <h4>Get involved</h4>
+        <a href="contact.html">Donate</a>
+        <a href="contact.html">Volunteer</a>
+        <a href="contact.html">Contact us</a>
+      </div>
+      <div>
+        <h4>Reach us</h4>
+        <a href="mailto:hello@uhf.org.in">hello@uhf.org.in</a>
+        <a href="tel:+910000000000">+91 00000 00000</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 United Hands Foundation. Registered under the Societies Registration Act, 1860.</span>
+      <span>uhf.org.in</span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
